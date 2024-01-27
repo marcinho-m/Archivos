@@ -1,0 +1,56 @@
+/*Globales*/
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    min-height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 1rem;
+}
+
+.contenedor h1,
+p {
+    text-align: center;
+}
+
+.contenedor p {
+    color: gray;
+    font-size: 1.8rem;
+}
+
+.contenedor h1 {
+    font-size: 2.5rem;
+}
+
+/* Contenido principal */
+
+.contenedor {
+    width: 20%;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+@media (max-width: 768px) {
+    .contenedor {
+        width: 90%;
+    }
+   
+}
+
+
